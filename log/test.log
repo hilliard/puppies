@@ -1,0 +1,194 @@
+  [1m[36mPuppy Load (5.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."name" = 'Hanna' LIMIT 1[0m
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."name" = 'Hanna' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "orders"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (47.0ms)[0m  INSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:24:41 UTC +00:00], ["email", "cheezy@me.com"], ["name", "Cheezy"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:24:41 UTC +00:00]]
+  [1m[36m (104.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "orders"
+  [1m[36m (99.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (90.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (132.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (102.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (107.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (89.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m
+  [1m[35m (103.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (3.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (104.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (110.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:24:42 UTC +00:00], ["email", "cheezy@me.com"], ["name", "George Washington"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:24:42 UTC +00:00]]
+  [1m[36m (100.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'George Washington' LIMIT 1
+  [1m[36m (100.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (107.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (91.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (114.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m
+  [1m[35m (136.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (93.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (98.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:24:43 UTC +00:00], ["email", "cheezy@me.com"], ["name", "Goofy"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:24:43 UTC +00:00]]
+  [1m[36m (96.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Goofy' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "orders" SET "name" = ?, "updated_at" = ? WHERE "orders"."id" = 1  [["name", "Minnie"], ["updated_at", Sun, 09 Mar 2014 20:24:43 UTC +00:00]]
+  [1m[36m (100.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Minnie' LIMIT 1
+  [1m[36m (101.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (116.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (93.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (105.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m
+  [1m[35m (95.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (102.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (90.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:24:44 UTC +00:00], ["email", "cheezy@me.com"], ["name", "Daisey Duck"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:24:44 UTC +00:00]]
+  [1m[36m (114.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Daisey Duck' LIMIT 1
+  [1m[36mSQL (104.0ms)[0m  [1mDELETE FROM "orders" WHERE "orders"."id" = 1[0m
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Daisey Duck' LIMIT 1
+  [1m[36m (107.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (96.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (109.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (94.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m
+  [1m[35m (108.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (106.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (100.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."name" = 'Hanna' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "orders"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (28.0ms)[0m  INSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:29:02 UTC +00:00], ["email", "cheezy@me.com"], ["name", "Cheezy"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:29:02 UTC +00:00]]
+  [1m[36m (87.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "orders"
+  [1m[36m (138.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (104.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (87.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (111.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m
+  [1m[35m (111.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (116.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (88.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (2.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:29:03 UTC +00:00], ["email", "cheezy@me.com"], ["name", "George Washington"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:29:03 UTC +00:00]]
+  [1m[36m (116.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'George Washington' LIMIT 1
+  [1m[36m (100.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (3.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (117.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (85.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (109.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m
+  [1m[35m (135.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (95.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (2.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (127.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:29:04 UTC +00:00], ["email", "cheezy@me.com"], ["name", "Goofy"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:29:04 UTC +00:00]]
+  [1m[36m (90.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (0.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Goofy' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  UPDATE "orders" SET "name" = ?, "updated_at" = ? WHERE "orders"."id" = 1  [["name", "Minnie"], ["updated_at", Sun, 09 Mar 2014 20:29:04 UTC +00:00]]
+  [1m[36m (103.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mOrder Load (1.0ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Minnie' LIMIT 1
+  [1m[36mOrder Load (0.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Goofy' LIMIT 1[0m
+  [1m[35m (106.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (113.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (98.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (100.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36m (99.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (102.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (101.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "orders" ("address", "created_at", "email", "name", "pay_type", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["address", "123 Main St."], ["created_at", Sun, 09 Mar 2014 20:29:05 UTC +00:00], ["email", "cheezy@me.com"], ["name", "Daisey Duck"], ["pay_type", "Check"], ["updated_at", Sun, 09 Mar 2014 20:29:05 UTC +00:00]]
+  [1m[35m (118.0ms)[0m  commit transaction
+  [1m[36mOrder Load (2.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Daisey Duck' LIMIT 1[0m
+  [1m[35mSQL (102.0ms)[0m  DELETE FROM "orders" WHERE "orders"."id" = 1
+  [1m[36mOrder Load (1.0ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."name" = 'Daisey Duck' LIMIT 1[0m
+  [1m[35m (110.0ms)[0m  DELETE FROM "carts";
+  [1m[36m (2.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (1.0ms)[0m  DELETE FROM sqlite_sequence where name = 'carts';
+  [1m[36m (102.0ms)[0m  [1mDELETE FROM "adoptions";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'adoptions';[0m
+  [1m[35m (99.0ms)[0m  DELETE FROM "orders";
+  [1m[36m (1.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (91.0ms)[0m  DELETE FROM sqlite_sequence where name = 'orders';
+  [1m[36m (108.0ms)[0m  [1mDELETE FROM "carts";[0m
+  [1m[35m (0.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (0.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'carts';[0m
+  [1m[35m (93.0ms)[0m  DELETE FROM "adoptions";
+  [1m[36m (0.0ms)[0m  [1mSELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';[0m
+  [1m[35m (0.0ms)[0m  DELETE FROM sqlite_sequence where name = 'adoptions';
+  [1m[36m (111.0ms)[0m  [1mDELETE FROM "orders";[0m
+  [1m[35m (1.0ms)[0m  SELECT name FROM sqlite_master WHERE type='table' AND name='sqlite_sequence';
+  [1m[36m (1.0ms)[0m  [1mDELETE FROM sqlite_sequence where name = 'orders';[0m

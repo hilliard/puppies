@@ -1,0 +1,19 @@
+<%= javascript_include_tag 'application' %>
+
+<h2>Your Litter</h2>
+
+<table>
+  <%= render @cart.adoptions %>
+
+  <tr class="total_line">
+    <td></td>
+    <td colspan="2"><h2>Total</h2></td>
+    <td class="total_cell"><h2><%= number_to_currency(@cart.total_price) %></h2></td>
+  </tr>
+</table>
+
+<div class="cart_buttons">
+  <%= button_to 'Complete the Adoption', new_order_path, :method => :get, :class => 'rounded_button' %>
+  <%= button_to 'Adopt Another Puppy', agency_path, :class => 'rounded_button'  %>
+  <%= button_to 'Change your mind', @cart, :method => :delete, :confirm => 'Are you sure?', :class => 'rounded_button'  %>
+</div>
