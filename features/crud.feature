@@ -1,5 +1,6 @@
 Feature: Using the database in our tests
 
+
    Scenario: Creating a new order in the database
      Given I know how many orders I have
      When I create a new order
@@ -20,3 +21,8 @@ Feature: Using the database in our tests
     Given I have an order for "Daisey Duck"
     When I delete that order
     Then I should not have a record for "Daisey Duck"
+
+  Scenario: Delivered on date should be set when a puppy is processed
+    Given I have a pending adoption for "Dog Lover"
+    When I process that adoption
+    Then the adoption delivered on date should be set to the current time

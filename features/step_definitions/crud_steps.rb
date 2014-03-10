@@ -56,3 +56,23 @@ When(/^I delete that order$/) do
   order = Order.find_by_name(@original_name)
   order.delete
 end
+
+Given(/^I have a pending adoption for "([^"]*)"$/) do |name|
+  order = build(:order, :name => name)
+  create(:adoption, :order => order)
+end
+
+When(/^I process that adoption$/) do
+  visit(LandingPage)
+  on(LoginPage).login_to_system
+  on(LandingPage).adoptions
+  on(ProcessPuppyPage).process_first_puppy
+end
+
+Then(/^the adoption delivered on date should be set to the current time$/) do
+  now = Time.now
+  adoption = Adoption.first
+  adoption.delivered_on.should be <= now
+  adoption.delivered_on.should be >  now - 3
+  # How should we verify the delivered_on value?
+end
