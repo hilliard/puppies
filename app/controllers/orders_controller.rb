@@ -1,4 +1,5 @@
 class OrdersController < ApplicationController
+  before_action :set_order
   skip_before_filter :authorize, :only => [:new, :create]
 
   def index
@@ -72,5 +73,16 @@ class OrdersController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(orders_url, :notice => "Please thank #{@order.name} for the order!") }
     end
+  end
+
+  private
+  # Use callbacks to share common setup or constraints between actions.
+  def set_order
+    @order = Order.find(params[:id])
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def order_params
+    params.require(:order).permit(:name, :address, :email, :pay_type)
   end
 end

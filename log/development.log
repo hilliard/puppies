@@ -363,3 +363,4096 @@ Started GET "/login" for 127.0.0.1 at 2014-03-09 15:15:39 -0600
 Processing by SessionsController#new as HTML
   Rendered sessions/new.html.erb within layouts/application (5.0ms)
 Completed 200 OK in 41ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at d:/apps/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 18:54:43 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (12.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (225.0ms)
+Completed 200 OK in 665ms (Views: 622.0ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 18:54:45 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 18:54:45 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 18:54:45 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 18:54:45 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 18:54:45 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 18:54:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 18:54:45 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 18:54:46 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 51ms (Views: 31.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:21:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (0.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:22:12 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:22:13 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:22:13 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:22:13 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:22:13 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:22:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 42ms (Views: 35.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:25:31 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:28:58 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:29:57 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (0.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 33ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:29:58 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:32:15 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (0.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 36ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:38:29 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:38:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:39:37 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:41:24 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 19:41:25 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 81ms (Views: 73.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:41:26 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (4.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 34ms (Views: 27.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:42:12 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 19:42:13 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 33ms (Views: 28.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:42:38 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 19:42:39 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 26ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:50:40 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 19:51:05 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"kc2tZe1m4Fn06J4r0CUTu4bSjM3e8QixLNJeld8Fc/g=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (16.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 01:51:05 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 01:51:05 UTC +00:00]]
+  [1m[36m (115.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (6.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 1], ["created_at", Tue, 11 Mar 2014 01:51:05 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 01:51:05 UTC +00:00]]
+  [1m[35m (93.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 1]]
+Redirected to http://localhost:3000/carts/1
+Completed 302 Found in 611ms (ActiveRecord: 239.0ms)
+
+
+Started GET "/carts/1" for 127.0.0.1 at 2014-03-10 19:51:05 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 1]]
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (23.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (176.0ms)
+Completed 200 OK in 204ms (Views: 200.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:51:05 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:51:05 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:51:05 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:51:06 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 52ms (Views: 39.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:54:08 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:54:09 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:54:09 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:54:09 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:54:09 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:54:09 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 26ms (Views: 22.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 19:54:10 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a1+euyXhTGVgStwtHo+z7SPshvGce88vzyvmblqJT20=", "puppy_id"=>"4"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Tue, 11 Mar 2014 01:54:11 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 01:54:11 UTC +00:00]]
+  [1m[35m (104.0ms)[0m  commit transaction
+  [1m[36mPuppy Load (0.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mAdoption Load (1.0ms)[0m  SELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1  [["cart_id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)  [["cart_id", 2], ["created_at", Tue, 11 Mar 2014 01:54:11 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 01:54:11 UTC +00:00]]
+  [1m[36m (105.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1  [["id", 2]]
+Redirected to http://localhost:3000/carts/2
+Completed 302 Found in 295ms (ActiveRecord: 215.0ms)
+
+
+Started GET "/carts/2" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35mAdoption Load (0.0ms)[0m  SELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?  [["cart_id", 2]]
+  [1m[36mPuppy Load (0.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1[0m  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (7.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 46ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:54:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 19:56:07 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (2.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 38ms (Views: 29.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 19:56:08 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:09 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a4PFtQdVZE8WTOQXZxQx7UwWyqglIV0Gl4pj1x9O57U=", "puppy_id"=>"4"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 01:56:10 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 01:56:10 UTC +00:00]]
+  [1m[36m (107.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 3], ["created_at", Tue, 11 Mar 2014 01:56:10 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 01:56:10 UTC +00:00]]
+  [1m[35m (99.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 3]]
+Redirected to http://localhost:3000/carts/3
+Completed 302 Found in 264ms (ActiveRecord: 215.0ms)
+
+
+Started GET "/carts/3" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 3]]
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (5.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 26ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:11 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:11 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 19:56:11 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mAdoption Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 3]]
+  Rendered orders/_form.html.erb (232.0ms)
+  Rendered orders/new.html.erb within layouts/application (266.0ms)
+Completed 200 OK in 354ms (Views: 286.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 19:56:12 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:01:25 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:01:26 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 29ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:27 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"wl5z1GE+JwlvQVQW+hrnQKUjajHkp11nt3vMx1vQNKc=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:01:28 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:01:28 UTC +00:00]]
+  [1m[36m (87.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 4]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 4], ["created_at", Tue, 11 Mar 2014 02:01:28 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:01:28 UTC +00:00]]
+  [1m[35m (99.0ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 4]]
+Redirected to http://localhost:3000/carts/4
+Completed 302 Found in 235ms (ActiveRecord: 192.0ms)
+
+
+Started GET "/carts/4" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 4]]
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (4.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 33ms (Views: 29.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:28 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mAdoption Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 4]]
+  Rendered orders/_form.html.erb (15.0ms)
+  Rendered orders/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 55ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:01:29 -0600
+
+
+Started POST "/orders" for 127.0.0.1 at 2014-03-10 20:03:27 -0600
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wl5z1GE+JwlvQVQW+hrnQKUjajHkp11nt3vMx1vQNKc=", "order"=>{"name"=>"", "address"=>"", "email"=>"", "pay_type"=>""}, "commit"=>"Place Order"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/orders_controller.rb:40:in `create'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (94.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (3.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 70ms (Views: 63.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:04:30 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:04:31 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 33ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:04:32 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"0z0oIEe1Vm3VHtfyC1I2QW3kF7BlDo7JmzEydHs1y3Y=", "puppy_id"=>"4"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:04:32 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:04:32 UTC +00:00]]
+  [1m[36m (121.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (2.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 5]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 5], ["created_at", Tue, 11 Mar 2014 02:04:33 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:04:33 UTC +00:00]]
+  [1m[35m (90.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 5]]
+Redirected to http://localhost:3000/carts/5
+Completed 302 Found in 292ms (ActiveRecord: 219.0ms)
+
+
+Started GET "/carts/5" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 5]]
+  [1m[35mPuppy Load (3.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (9.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 59ms (Views: 46.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:33 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mAdoption Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 5]]
+  Rendered orders/_form.html.erb (5.0ms)
+  Rendered orders/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 48ms (Views: 28.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:04:34 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:05:48 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:05:49 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:05:49 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:05:49 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:49 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:05:50 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"RlIZEf5L4WQOEH7OxzvBIapCAOLuVQCbzATUcLXRisA=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (7.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:05:50 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:05:50 UTC +00:00]]
+  [1m[36m (98.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 6]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 6], ["created_at", Tue, 11 Mar 2014 02:05:50 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:05:50 UTC +00:00]]
+  [1m[35m (98.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 6]]
+Redirected to http://localhost:3000/carts/6
+Completed 302 Found in 294ms (ActiveRecord: 205.0ms)
+
+
+Started GET "/carts/6" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 6]]
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (8.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 66ms (Views: 63.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:51 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mAdoption Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 6]]
+  Rendered orders/_form.html.erb (8.0ms)
+  Rendered orders/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 79ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:05:52 -0600
+
+
+Started POST "/orders" for 127.0.0.1 at 2014-03-10 20:05:56 -0600
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RlIZEf5L4WQOEH7OxzvBIapCAOLuVQCbzATUcLXRisA=", "order"=>{"name"=>"Fred", "address"=>"325 Bedrock St", "email"=>"user@email.com", "pay_type"=>"Purchase order"}, "commit"=>"Place Order"}
+Completed 500 Internal Server Error in 2ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/orders_controller.rb:40:in `create'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (119.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:07:57 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 46ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:57 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:07:58 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 25ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:07:59 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"jpzNshQVMa65Mka2la98daMD42CpO3D5mV2aft83dWs=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (20.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:08:00 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:08:00 UTC +00:00]]
+  [1m[36m (121.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 7]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 7], ["created_at", Tue, 11 Mar 2014 02:08:00 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:08:00 UTC +00:00]]
+  [1m[35m (100.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/carts/7
+Completed 302 Found in 312ms (ActiveRecord: 248.0ms)
+
+
+Started GET "/carts/7" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 7]]
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (7.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 54ms (Views: 47.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:00 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (1.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 7]]
+  [1m[36mAdoption Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 7]]
+  Rendered orders/_form.html.erb (22.0ms)
+  Rendered orders/new.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 100ms (Views: 43.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:08:01 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:09:37 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 34ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:09:38 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 30ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:39 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:09:40 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"fGl7KwxzmTOwA8l/8X729bgMZGyXjTBTKM4EUZPjgLs=", "puppy_id"=>"4"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:09:40 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:09:40 UTC +00:00]]
+  [1m[36m (111.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 8]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 8], ["created_at", Tue, 11 Mar 2014 02:09:40 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:09:40 UTC +00:00]]
+  [1m[35m (102.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 8]]
+Redirected to http://localhost:3000/carts/8
+Completed 302 Found in 276ms (ActiveRecord: 227.0ms)
+
+
+Started GET "/carts/8" for 127.0.0.1 at 2014-03-10 20:09:40 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mCart Load (1.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 8]]
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (4.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 40ms (Views: 34.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:41 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 8]]
+  [1m[36mAdoption Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 8]]
+  Rendered orders/_form.html.erb (9.0ms)
+  Rendered orders/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 52ms (Views: 33.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:09:42 -0600
+
+
+Started POST "/orders" for 127.0.0.1 at 2014-03-10 20:09:48 -0600
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fGl7KwxzmTOwA8l/8X729bgMZGyXjTBTKM4EUZPjgLs=", "order"=>{"name"=>"Fred", "address"=>"325 Bedrock St", "email"=>"user@email.com", "pay_type"=>"Purchase order"}, "commit"=>"Place Order"}
+Completed 500 Internal Server Error in 2ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/orders_controller.rb:40:in `create'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (71.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 83ms (Views: 79.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:13:51 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:13:52 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 24ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:53 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ZsQTxV6+yGusVHFhkn96UJf+lpb813nnlfuRzIcWEuk=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:13:54 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:13:54 UTC +00:00]]
+  [1m[36m (95.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 9]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 9], ["created_at", Tue, 11 Mar 2014 02:13:54 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:13:54 UTC +00:00]]
+  [1m[35m (98.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 9]]
+Redirected to http://localhost:3000/carts/9
+Completed 302 Found in 248ms (ActiveRecord: 201.0ms)
+
+
+Started GET "/carts/9" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "9"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 9]]
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (6.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 59ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:55 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:55 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:13:55 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mAdoption Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 9]]
+  Rendered orders/_form.html.erb (7.0ms)
+  Rendered orders/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 64ms (Views: 42.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:55 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:55 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:55 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:56 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:56 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:13:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:56 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:13:56 -0600
+
+
+Started POST "/orders" for 127.0.0.1 at 2014-03-10 20:14:01 -0600
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZsQTxV6+yGusVHFhkn96UJf+lpb813nnlfuRzIcWEuk=", "order"=>{"name"=>"Fred", "address"=>"325 Bedrock St", "email"=>"user@email.com", "pay_type"=>"Purchase order"}, "commit"=>"Place Order"}
+Completed 500 Internal Server Error in 5ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/orders_controller.rb:40:in `create'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:20:08 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (91.0ms)
+Completed 200 OK in 158ms (Views: 134.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:08 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:08 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:08 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:20:09 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 36ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:10 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:20:11 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"UEbB1EDNly9qxEfeyebc9ChmaFIPEiHTx/7oXCrScPk=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:20:11 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:20:11 UTC +00:00]]
+  [1m[36m (124.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 10]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 10], ["created_at", Tue, 11 Mar 2014 02:20:11 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:20:11 UTC +00:00]]
+  [1m[35m (105.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  commit transaction
+  [1m[36mCart Load (3.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 10]]
+Redirected to http://localhost:3000/carts/10
+Completed 302 Found in 429ms (ActiveRecord: 245.0ms)
+
+
+Started GET "/carts/10" for 127.0.0.1 at 2014-03-10 20:20:11 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mCart Load (1.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 10]]
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (31.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 116ms (Views: 108.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:20:12 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:20:13 -0600
+
+ActionController::RoutingError (undefined local variable or method `set_order' for OrdersController:Class):
+  app/controllers/orders_controller.rb:2:in `<class:OrdersController>'
+  app/controllers/orders_controller.rb:1:in `<top (required)>'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (320.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:22:12 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[36mPuppy Load (2.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "puppies"
+  Rendered agency/index.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 76ms (Views: 62.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:22:13 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mPuppy Load (2.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 30ms (Views: 20.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:14 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:22:15 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"/fAxx0SJ2zbBtd6A4VG9pZ39ajtV4JSTMk9fvkzdikI=", "puppy_id"=>"4"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (21.0ms)[0m  [1mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", Tue, 11 Mar 2014 02:22:15 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:22:15 UTC +00:00]]
+  [1m[35m (100.0ms)[0m  commit transaction
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35mAdoption Load (2.0ms)[0m  SELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1  [["cart_id", 11]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)  [["cart_id", 11], ["created_at", Tue, 11 Mar 2014 02:22:15 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:22:15 UTC +00:00]]
+  [1m[36m (105.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1  [["id", 11]]
+Redirected to http://localhost:3000/carts/11
+Completed 302 Found in 415ms (ActiveRecord: 236.0ms)
+
+
+Started GET "/carts/11" for 127.0.0.1 at 2014-03-10 20:22:15 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  [1m[35mAdoption Load (2.0ms)[0m  SELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?  [["cart_id", 11]]
+  [1m[36mPuppy Load (1.0ms)[0m  [1mSELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1[0m  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (14.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 68ms (Views: 59.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:22:16 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:22:17 -0600
+Processing by OrdersController#new as HTML
+Completed 404 Not Found in 22ms
+
+ActiveRecord::RecordNotFound (Couldn't find Order without an ID):
+  app/controllers/orders_controller.rb:81:in `set_order'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (2.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (120.0ms)
+Completed 200 OK in 143ms (Views: 127.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:25:31 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 33ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:32 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:25:33 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"pMebijYYYYN0cmgoZipA2uy0RHAiNJ+AgZYW8C/R51U=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (7.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:25:33 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:25:33 UTC +00:00]]
+  [1m[36m (99.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 12]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 12], ["created_at", Tue, 11 Mar 2014 02:25:33 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:25:33 UTC +00:00]]
+  [1m[35m (97.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36mCart Load (3.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 12]]
+Redirected to http://localhost:3000/carts/12
+Completed 302 Found in 424ms (ActiveRecord: 215.0ms)
+
+
+Started GET "/carts/12" for 127.0.0.1 at 2014-03-10 20:25:33 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mCart Load (1.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "12"]]
+  [1m[36mAdoption Load (2.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 12]]
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (8.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 108ms (Views: 79.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:33 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:33 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:33 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:33 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:34 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 12]]
+  [1m[36mAdoption Exists (0.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 12]]
+  Rendered orders/_form.html.erb (70.0ms)
+  Rendered orders/new.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 119ms (Views: 90.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:25:35 -0600
+
+
+Started POST "/orders" for 127.0.0.1 at 2014-03-10 20:25:40 -0600
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pMebijYYYYN0cmgoZipA2uy0RHAiNJ+AgZYW8C/R51U=", "order"=>{"name"=>"Fred", "address"=>"325 Bedrock St", "email"=>"user@email.com", "pay_type"=>"Purchase order"}, "commit"=>"Place Order"}
+Completed 500 Internal Server Error in 2ms
+
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  app/controllers/orders_controller.rb:41:in `create'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:28:07 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (3.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (132.0ms)
+Completed 200 OK in 158ms (Views: 141.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:28:08 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 37ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:09 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:28:10 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"qA5FT3Nhi9W9AOPbku9om/ZQYfWwjeDz8eCxYDmtBb4=", "puppy_id"=>"4"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (82.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:28:10 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:28:10 UTC +00:00]]
+  [1m[36m (113.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 13]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 13], ["created_at", Tue, 11 Mar 2014 02:28:10 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:28:10 UTC +00:00]]
+  [1m[35m (103.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 13]]
+Redirected to http://localhost:3000/carts/13
+Completed 302 Found in 462ms (ActiveRecord: 306.0ms)
+
+
+Started GET "/carts/13" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "13"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 13]]
+  [1m[35mPuppy Load (3.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (42.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 91ms (Views: 80.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:28:11 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:28:12 -0600
+Processing by OrdersController#new as HTML
+  [1m[36mCart Load (2.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 13]]
+  [1m[36mAdoption Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM "adoptions" WHERE "adoptions"."cart_id" = ? LIMIT 1[0m  [["cart_id", 13]]
+Completed 500 Internal Server Error in 31ms
+
+RuntimeError (`attr_accessible` is extracted out of Rails into a gem. Please use new recommended protection model for params(strong_parameters) or add `protected_attributes` to your Gemfile to use old one.):
+  app/models/order.rb:2:in `<class:Order>'
+  app/models/order.rb:1:in `<top (required)>'
+  app/controllers/orders_controller.rb:29:in `new'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (72.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-10 20:30:29 -0600
+Processing by AgencyController#index as HTML
+DEPRECATION WARNING: #apply_finder_options is deprecated. (called from index at E:/code/rails_projects/puppies/app/controllers/agency_controller.rb:6)
+  [1m[35mPuppy Load (4.0ms)[0m  SELECT "puppies".* FROM "puppies" ORDER BY name LIMIT 4 OFFSET 0
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "puppies"[0m
+  Rendered agency/index.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 105ms (Views: 80.0ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/layout.css" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/puppies.css" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/form.css" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/MaggieMae.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/Hannah.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/contact.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/Brook.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/ruby_sue.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/bg_top.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/sb_top.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/intro.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/assets/search.jpg" for 127.0.0.1 at 2014-03-10 20:30:30 -0600
+
+
+Started GET "/puppies/4" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+Processing by PuppiesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  Rendered puppies/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 31ms (Views: 27.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:31 -0600
+
+
+Started POST "/adoptions?puppy_id=4" for 127.0.0.1 at 2014-03-10 20:30:32 -0600
+Processing by AdoptionsController#create as HTML
+  Parameters: {"authenticity_token"=>"iTciTbyi5rZ7yXc6jUOTjI5zdyx3PHAAzlXJuFrYvYE=", "puppy_id"=>"4"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (15.0ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Tue, 11 Mar 2014 02:30:32 UTC +00:00], ["updated_at", Tue, 11 Mar 2014 02:30:32 UTC +00:00]]
+  [1m[36m (109.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mPuppy Load (0.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mAdoption Load (0.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ? AND "adoptions"."puppy_id" = 4 ORDER BY "adoptions"."id" ASC LIMIT 1[0m  [["cart_id", 14]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "adoptions" ("cart_id", "created_at", "puppy_id", "updated_at") VALUES (?, ?, ?, ?)[0m  [["cart_id", 14], ["created_at", Tue, 11 Mar 2014 02:30:32 UTC +00:00], ["puppy_id", 4], ["updated_at", Tue, 11 Mar 2014 02:30:32 UTC +00:00]]
+  [1m[35m (107.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? ORDER BY "carts"."id" ASC LIMIT 1[0m  [["id", 14]]
+Redirected to http://localhost:3000/carts/14
+Completed 302 Found in 373ms (ActiveRecord: 237.0ms)
+
+
+Started GET "/carts/14" for 127.0.0.1 at 2014-03-10 20:30:32 -0600
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", "14"]]
+  [1m[36mAdoption Load (1.0ms)[0m  [1mSELECT "adoptions".* FROM "adoptions" WHERE "adoptions"."cart_id" = ?[0m  [["cart_id", 14]]
+  [1m[35mPuppy Load (1.0ms)[0m  SELECT "puppies".* FROM "puppies" WHERE "puppies"."id" = ? ORDER BY "puppies"."id" ASC LIMIT 1  [["id", 4]]
+  Rendered adoptions/_adoption.html.erb (14.0ms)
+DEPRECATION WARNING: :confirm option is deprecated and will be removed from Rails 4.1. Use 'data: { confirm: 'Text' }' instead. (called from _app_views_carts_show_html_erb__342726089_42271956 at E:/code/rails_projects/puppies/app/views/carts/show.html.erb:18)
+  Rendered carts/show.html.erb within layouts/application (33.0ms)
+Completed 200 OK in 139ms (Views: 40.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/scaffold.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/stylesheet.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/puppies.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/form.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/assets/adoptions.js?body=1" for 127.0.0.1 at 2014-03-10 20:30:33 -0600
+
+
+Started GET "/orders/new" for 127.0.0.1 at 2014-03-10 20:30:34 -0600
+Processing by OrdersController#new as HTML
+Completed 404 Not Found in 11ms
+
+ActiveRecord::RecordNotFound (Couldn't find Order without an ID):
+  app/controllers/orders_controller.rb:81:in `set_order'
+
+
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered d:/apps/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.0ms)

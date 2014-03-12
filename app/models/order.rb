@@ -1,4 +1,5 @@
 class Order < ActiveRecord::Base
+
   has_many :adoptions, :dependent => :destroy
   PAYMENT_TYPES = [ 'Check', 'Credit card', 'Purchase order' ]
 
